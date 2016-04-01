@@ -1,0 +1,39 @@
+
+#leftMenu
+{
+	width: 230px;
+	float: left;
+}
+
+#leftMenu ul
+{
+	list-style: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+#leftMenu li
+{
+	border-bottom: 1px solid #ED9F9F;
+}
+
+#leftMenu li a:link, #leftMenu li a:visited {
+	font-size: 90%;
+	display: block;
+	padding: 0.4em 0 0.4em 0.5em;
+	border-left: 12px solid #711515;
+	border-right: 1px solid #711515;
+	background-color: #B51032;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#leftMenu li a:hover {
+	background-color: #711515;
+	color: #FFFFFF;
+}
+
+#member1 img
+{
+	border-radius: 50%;
+}
