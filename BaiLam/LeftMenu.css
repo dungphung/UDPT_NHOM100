@@ -1,4 +1,4 @@
-
+ 
 #leftMenu
 {
 	width: 230px;
@@ -14,22 +14,22 @@
 
 #leftMenu li
 {
-	border-bottom: 1px solid #ED9F9F;
+	border-bottom: 1px solid #C2D8E4;
 }
 
 #leftMenu li a:link, #leftMenu li a:visited {
 	font-size: 90%;
 	display: block;
 	padding: 0.4em 0 0.4em 0.5em;
-	border-left: 12px solid #711515;
-	border-right: 1px solid #711515;
-	background-color: #B51032;
+	border-left: 12px solid #367FA6;
+	border-right: 1px solid #367FA6;
+	background-color: #86B2C9;
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
 #leftMenu li a:hover {
-	background-color: #711515;
+	background-color:  #367FA6;
 	color: #FFFFFF;
 }
 
