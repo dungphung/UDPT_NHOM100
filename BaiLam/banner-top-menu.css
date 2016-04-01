@@ -8,9 +8,9 @@ vertical-align:baseline;
 }
 
 html, body {
-	background: #60646D; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+	background: #F1F1F1; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
-.clear {clear: both;}
+/*.clear {clear: both;}*/
 
 
 .top {
@@ -64,6 +64,6 @@ html, body {
 
 #topMenu ul li a:hover {
 	color: #3D8EB9;
-	/*background: #ffffff;	*/
+	/*background: #ffffff;	
 }
 
