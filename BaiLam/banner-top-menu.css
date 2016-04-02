@@ -8,9 +8,15 @@ vertical-align:baseline;
 }
 
 html, body {
+
 	background: #F1F1F1; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 /*.clear {clear: both;}*/
+
+	background: #60646D; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
 
 
 .top {
@@ -44,7 +50,11 @@ html, body {
 #topMenu ul {
 	list-style-type: none;			
   	text-align: center;
+
   	background: #ffffff;  	
+
+  	background: #367FA6;  	
+
   	padding: 15px 8px;
   	font-size: 16px;
 }
@@ -57,13 +67,24 @@ html, body {
 
 #topMenu ul li a:link, #topMenu a:visited {	
 	margin-left: 30px;
+
 	padding: 14px 30px;
 	color: #000000;	
+
+	padding: 15.5px 30px;
+	color: #ffffff;	
+
   	text-decoration: none;
 }
 
 #topMenu ul li a:hover {
+
 	color: #3D8EB9;
 	/*background: #ffffff;	
+}
+
+
+	color: #367FA6;	
+	background: #ffffff;
 }
 

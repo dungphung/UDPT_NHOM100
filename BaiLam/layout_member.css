@@ -18,8 +18,13 @@ html, body {
 .clear {clear: both;}
 
 h1 {
+
 	font-size: 30px;
 	line-height: 22px;
+
+	font-size: 2em;
+	line-height: 1.4em;
+
 	margin: 20px 0;
 	color: #444;
 	text-align: center;
@@ -55,7 +60,11 @@ h1 {
 #topMenu ul {
 	list-style-type: none;			
   	text-align: center;
+
   	background: #367FA6;  	
+
+  	background: #ffffff;  	
+
   	padding: 15px 8px;
   	font-size: 16px;
 }
@@ -74,7 +83,12 @@ h1 {
 }
 
 #topMenu ul li a:hover {
+
 	color: #ffffff;	
+
+	color: #3D8EB9;
+	/*background: #ffffff;	*/
+
 }
 
 #content {
@@ -83,11 +97,16 @@ h1 {
 }
 
 .member {
+
 	padding: 3.2px;
+
+	padding: 0.4em;
+
 }
 
 #header {
 	padding: 15px 25px;
+
 	margin-left: 325px;
 	width: 600px;		
 	background: #C2D8E4;
@@ -99,6 +118,11 @@ h1 {
 	width: 1200px;
 	float: right;	
 }
+
+=======
+	background: #ededed;	
+}	
+
 
 #mainContent {	
 	font: Helvetica;
@@ -121,12 +145,21 @@ h1 {
 }
 
 
+
+.member {
+	margin-top: 15px;	
+	width: 1200px;
+	float: right;	
+}
+
+
 #image {
 	padding: 20px;
 }
 
 #Info {
 	width: 1090px;
+
 	margin: 80px 0;	
 }
 
@@ -141,6 +174,21 @@ h1 {
 }
 
 #Info ul li {
+
+	margin: 80px 0;
+}
+
+#mainContent ul {	
+	width: 600px;
+	margin-left: 10px;		
+  	text-align: justify;
+  	background: #D2D7D3;
+  	padding: 2em 2.2em;  	
+  	float: right;
+}
+
+#mainContent ul li {
+
 	font-size: 1.2em;
 	
 }
