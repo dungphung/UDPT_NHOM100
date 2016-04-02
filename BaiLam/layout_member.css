@@ -18,18 +18,10 @@ html, body {
 .clear {clear: both;}
 
 h1 {
-<<<<<<< HEAD
 
 	font-size: 30px;
 	line-height: 22px;
 
-	font-size: 2em;
-	line-height: 1.4em;
-
-=======
-	font-size: 30px;
-	line-height: 22px;
->>>>>>> TrangCaNhan
 	margin: 20px 0;
 	color: #444;
 	text-align: center;
@@ -65,15 +57,9 @@ h1 {
 #topMenu ul {
 	list-style-type: none;			
   	text-align: center;
-<<<<<<< HEAD
 
   	background: #367FA6;  	
 
-  	background: #ffffff;  	
-
-=======
-  	background: #367FA6;  	
->>>>>>> TrangCaNhan
   	padding: 15px 8px;
   	font-size: 16px;
 }
@@ -92,16 +78,9 @@ h1 {
 }
 
 #topMenu ul li a:hover {
-<<<<<<< HEAD
 
 	color: #ffffff;	
 
-	color: #3D8EB9;
-	/*background: #ffffff;	*/
-
-=======
-	color: #ffffff;	
->>>>>>> TrangCaNhan
 }
 
 #content {
@@ -110,23 +89,14 @@ h1 {
 }
 
 .member {
-<<<<<<< HEAD
 
 	padding: 3.2px;
 
-	padding: 0.4em;
-
-=======
-	padding: 3.2px;
->>>>>>> TrangCaNhan
 }
 
 #header {
 	padding: 15px 25px;
-<<<<<<< HEAD
 
-=======
->>>>>>> TrangCaNhan
 	margin-left: 325px;
 	width: 600px;		
 	background: #C2D8E4;
@@ -139,14 +109,10 @@ h1 {
 	float: right;	
 }
 
-<<<<<<< HEAD
-=======
-	background: #ededed;	
-}	
 
 
-=======
->>>>>>> TrangCaNhan
+
+
 #mainContent {	
 	font: Helvetica;
 	line-height: 1em;
@@ -167,28 +133,13 @@ h1 {
 	float: left;
 }
 
-
-<<<<<<< HEAD
-
-.member {
-	margin-top: 15px;	
-	width: 1200px;
-	float: right;	
-}
-
-
-=======
->>>>>>> TrangCaNhan
 #image {
 	padding: 20px;
 }
 
 #Info {
 	width: 1090px;
-<<<<<<< HEAD
 
-=======
->>>>>>> TrangCaNhan
 	margin: 80px 0;	
 }
 
@@ -203,24 +154,7 @@ h1 {
 }
 
 #Info ul li {
-<<<<<<< HEAD
 
-	margin: 80px 0;
-}
-
-#mainContent ul {	
-	width: 600px;
-	margin-left: 10px;		
-  	text-align: justify;
-  	background: #D2D7D3;
-  	padding: 2em 2.2em;  	
-  	float: right;
-}
-
-#mainContent ul li {
-
-=======
->>>>>>> TrangCaNhan
 	font-size: 1.2em;
 	
 }
