@@ -57,13 +57,12 @@ html, body {
 
 #topMenu ul li a:link, #topMenu a:visited {	
 	margin-left: 30px;
-	padding: 14px 30px;
+	padding: 15.5px 30px;
 	color: #ffffff;	
   	text-decoration: none;
 }
 
 #topMenu ul li a:hover {
-	color: #367FA6;
+	color: #367FA6;	
 	background: #ffffff;
 }
-
