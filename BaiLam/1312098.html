@@ -6,37 +6,58 @@
 	<link type="text/css" rel="stylesheet" href="layout_member.css">
 </head>
 <body class="top">
+
+	<!-- Thẻ div gắn banner của nhóm -->
+
 	<div id="banner">
 		<img src="img.jpg" alt="Banner">
 	</div>
+	
+	<!-- Thanh menu nằm ngang -->
 
 	<div id="topMenu">
 		<ul>
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">1312123</a></li>
-			<li><a href="#">1312098</a></li>
+			<li><a href="desktop.html">HOME</a></li>
+			<li><a href="1312123.html">1312123</a></li>
+			<li><a href="1312098.html">1312098</a></li>
 		</ul>
 	</div>
 
+	<!-- Phần nội dung, bao gồm: 
+		+ header: chứa mssv - họ tên của thành viên
+		+ mainContent: gồm 2 phần:
+			- image: Ảnh của thành viên
+			- Info: Thông tin cơ bản của thành viên -->
+	
 	<div id="content" class="member">
 		<div id="header">
-			<h1>1312098 - Phung Van Dung</h1>
+			<h1>1312098 - Phùng Văn Dũng</h1>
 		</div>
 
 		<div id="mainContent">
-			<img src="Dung.jpg" alt="1312098 - Phung Van Dung">
-
-			<ul>
-				<li>MSSV: 1312098</li><br>
-				<li>Ho Ten: Phung Van Dung</li><br>
-				<li>Email: 1312098@student.hcmus.edu.vn</li><br>
-				<li>Dien Thoai: 01680000001</li><br>
-				<li>Vai tro: Thanh Vien</li><br>
-				<li>So truong: </li>
-			</ul>
+			<div id="image">
+				<img src="Dung.jpg" alt="1312098 - Phung Van Dung">
+			</div>
+			
+			<div id="Info">
+				<ul>
+					<li>MSSV: 1312098</li><br>
+					<li>Họ Tên: Phùng Văn Dũng</li><br>
+					<li>Email: 1312098@student.hcmus.edu.vn</li><br>
+					<li>Điện Thoại: 01680000001</li><br>
+					<li>Vai trò: Trưởng nhóm</li><br>
+					<li>Sở trường: </li><br>
+					<li id="mem_img">
+						<a href="https://www.facebook.com/phungvan.dung.1">www.facebook.com/PhungVanDung</a>
+					</li>
+				</ul>
+			</div>
+			
 		</div>
 	</div>
 	<div class="clear"></div>
+		
+		<!-- Phần footer: Kết trang cá nhân -->
 
 	<div id="footer">
 		<p>Copy @ right</p>
