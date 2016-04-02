@@ -72,12 +72,17 @@ html, body {
 	color: #000000;	
 
 	padding: 15.5px 30px;
+<<<<<<< HEAD
 	color: #ffffff;	
 
+=======
+	color: #000000;	
+>>>>>>> TopMenu
   	text-decoration: none;
 }
 
 #topMenu ul li a:hover {
+<<<<<<< HEAD
 
 	color: #3D8EB9;
 	/*background: #ffffff;	
@@ -88,3 +93,8 @@ html, body {
 	background: #ffffff;
 }
 
+=======
+	color: #ffffff;	
+	/*background: #ffffff;*/
+}
+>>>>>>> TopMenu
