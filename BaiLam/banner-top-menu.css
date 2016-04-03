@@ -43,40 +43,51 @@ html, body {
 #topMenu {
 	font-size: 90%;
 	margin-top: 5px;
+	width: 1200px;
+	height: auto;
 }
 
 #topMenu ul {
-	list-style-type: none;			
-  	text-align: center;
-
-  	background: #ffffff;  	
-
+	list-style-type: none; 	
   	background: #367FA6;  	
-
-  	padding: 15px 8px;
-  	font-size: 16px;
+  	padding: 18.5px 8px;  	
+  	line-height: 6px;  	
+  	font-size: 16px; 
+  	width: 770px; 
+  	float: right;
 }
 
 #topMenu ul li {
 	display: inline;
-	font-weight: bold;
+	font-weight: bold;	
 }
 
 
 #topMenu ul li a:link, #topMenu a:visited {	
-	margin-left: 30px;
-
-	padding: 14px 30px;
-	color: #000000;	
-
-	padding: 15.5px 30px;
-
+	margin-left: 30px;	
+	padding: 10px 30px;
 	color: #000000;	
 
   	text-decoration: none;
 }
 
 #topMenu ul li a:hover {
-color: #ffffff;
+	color: #ffffff;	
 }
 
+#logo {	
+	width: 414px;
+	max-width: 100%;
+	background: #367FA6;
+
+	height: 43.25px;
+
+	float: left;
+}
+
+#logo img {	
+	margin-left: 324px;
+	padding-top: 1.3px;
+	width: 83.05px;
+	height: 40.25px;
+}
