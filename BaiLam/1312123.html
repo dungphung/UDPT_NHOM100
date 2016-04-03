@@ -6,37 +6,68 @@
 	<link type="text/css" rel="stylesheet" href="layout_member.css">
 </head>
 <body class="top">
+
+	<!-- Thẻ div gắn banner của nhóm -->
+
 	<div id="banner">
-		<img src="Banner1.jpg" alt="Banner">
+		<img src="img.jpg" alt="Banner">
 	</div>
 
+	<!-- Thanh menu nằm ngang -->
+	
 	<div id="topMenu">
+
+		<div id="logo">
+			<a href="desktop.html"><img src="logo.png" alt="Logo"></a>
+		</div>
+
 		<ul>
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">1312123</a></li>
-			<li><a href="#">1312098</a></li>
+			<li><a href="desktop.html">HOME</a></li>
+			<li><a href="1312123.html">1312123</a></li>
+			<li><a href="1312098.html">1312098</a></li>
 		</ul>
 	</div>
 
+
+	<!-- Phần nội dung, bao gồm: 
+		+ header: chứa mssv - họ tên của thành viên
+		+ mainContent: gồm 2 phần:
+			- image: Ảnh của thành viên
+			- Info: Thông tin cơ bản của thành viên -->
+	
 	<div id="content" class="member">
 		<div id="header">
-			<h1>1312123 - Nguyen Ngo Thanh Dat</h1>
+			<h1>1312123 - Nguyễn Ngô Thành Đạt</h1>
 		</div>
 
-		<div id="mainContent">
-			<img src="Dat.jpg" alt="1312123 - Nguyen Ngo Thanh Dat">
 
-			<ul>
-				<li>MSSV: 1312123</li><br>
-				<li>Ho Ten: Nguyen Ngo Thanh Dat</li><br>
-				<li>Email: 1312123@student.hcmus.edu.vn</li><br>
-				<li>Dien Thoai: 01683463335</li><br>
-				<li>Vai tro: Thanh Vien</li><br>
-				<li>So truong: </li>
-			</ul>
+		
+
+		<div id="mainContent">
+
+			<div id="image">
+				<img src="Dat.jpg" alt="1312123 - Nguyen Ngo Thanh Dat">
+			</div>
+
+			<div id="Info">
+				<ul>
+					<li>MSSV: 1312123</li><br>
+					<li>Họ Tên: Nguyễn Ngô Thành Đạt</li><br>
+					<li>Email: 1312123@student.hcmus.edu.vn</li><br>
+					<li>Điện thoại: 01683463335</li><br>
+					<li>Vai trò: Thành Viên</li><br>
+					<li>Sở trường: </li><br>
+					<li id="mem_img">
+							<a href="https://www.facebook.com/NgNgoThanhDat">www.facebook.com/NgNgoThanhDat</a>
+					</li>
+
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="clear"></div>
+
+	<!-- Phần footer: Kết trang cá nhân -->
 
 	<div id="footer">
 		<p>Copy @ right</p>
