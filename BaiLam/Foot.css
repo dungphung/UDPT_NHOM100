@@ -1,0 +1,62 @@
+#footer
+{
+	margin-top: 15px;
+	background-color:  #367FA6;
+	color: #FFFFFF;
+	max-width: 1200px;
+}
+
+
+#footer #ThongTin
+{
+	float:left;
+	width-max: 400px;
+	margin: 10px 50px 10px 70px;
+	border-right: 3px solid #fff;
+	padding-right: 20px;
+}
+
+#footer #MangXH 
+{
+	float: right;
+	width: 800px;
+}
+
+.XoaFloatFooter
+{
+	overflow: auto;
+} 
+
+#footer #ThongTin ul li
+{
+	margin-left: 40px;
+}
+
+#footer #ThongTin p
+{
+	font-weight: bolder;
+	font-size: 25x;
+}
+
+#footer #MangXH img
+{
+	height: 150px;
+	width:  180px;
+}
+
+#footer #MangXH li
+{
+	display: inline;
+	margin-left: 40px;
+}
+#footer #MangXH ul
+{
+	margin-top: 50px;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+
+
+
+
