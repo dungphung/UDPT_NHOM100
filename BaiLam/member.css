@@ -1,7 +1,7 @@
 
 #content
 {
-	border-top: 12px solid #F1F1F1;
+	margin-top: 12px;
 	max-width:  1200px;
 	background-color: #FFFFFF;
 }
@@ -26,7 +26,6 @@ h1
 img
 {
 	background-repeat: no-repeat;
-	margin: 0 5px 5px 5px;
 }
 
 .member a img

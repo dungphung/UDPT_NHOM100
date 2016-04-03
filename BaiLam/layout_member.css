@@ -13,7 +13,7 @@ vertical-align:baseline;
 }
 
 html, body {
-	background: #60646D; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+	background:  #F1F1F1; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -61,6 +61,7 @@ h1 {
   	font-size: 16px; 
   	width: 770px; 
   	float: right;
+  	box-sizing: content-box;
 }
 
 #topMenu ul li {
@@ -82,11 +83,12 @@ h1 {
 }
 
 #logo {	
-	width: 430px;
+	width: 414px;
 	max-width: 100%;
 	background: #367FA6;
-	height: 43.25px;
+	height: auto;
 	float: left;
+	box-sizing: content-box;
 	
 }
 
@@ -94,12 +96,8 @@ h1 {
 	margin-left: 324px;
 	padding-top: 1.3px;
 	width: 83.05px;
-	height: 40.25px;
-}
-
-#content {
-	margin: 0 auto;
-	font-size: 100%;
+	height: 39.2px;
+	box-sizing: content-box;
 }
 
 .member {
@@ -126,7 +124,6 @@ h1 {
 	padding: 0.4em;
 	font-size: 90%;
 	margin: 0;
-	padding: 5px;
 	max-width: 1200px;
 }
 
@@ -135,7 +132,7 @@ h1 {
 	border-radius: 4px;
 	border: 1px solid #ddd;
 	padding: 5px;	
-	width: 400px;
+	width: 380px;
 	height: auto;
 	float: left;
 }
@@ -173,14 +170,9 @@ h1 {
 	text-decoration: none;
 }
 
-#footer {
-	width: 1200px;	
-	margin: 0;
-	padding: 0;
-}
 
-#footer p {
-	text-align: center;
-	font-size: 1.1em;
-	line-height: 2em;
+#content
+{
+	background-color: #FFFFFF;
+	border: 2px solid #E2E2E2;
 }

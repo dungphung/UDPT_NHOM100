@@ -2,9 +2,9 @@
 
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
-Thành viên: **Tên và mã số sinh viên thành viên**
+Thành viên: **1312098 - Phung Van Dung - 1312123 - Nguyen Ngo Thanh Dat**
 
-URL: **URL hosting của bài tập**
+URL: **https://github.com/dungvatoi12/UDPT_NHOM100.git**
 
 ## Yêu cầu
 
@@ -37,14 +37,14 @@ Liệt kê các **yêu cầu nâng cao** đã thực hiện:
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+![Video Walkthrough](BaiLam\Anh_bai_lam.gif)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Nhom_100]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

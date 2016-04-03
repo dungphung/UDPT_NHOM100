@@ -5,6 +5,7 @@ font-size:100%;
 margin:0;
 padding:0;
 vertical-align:baseline;
+outline-offset: 0px;
 }
 
 html, body {
@@ -45,6 +46,7 @@ html, body {
 	margin-top: 5px;
 	width: 1200px;
 	height: auto;
+	overflow: auto;
 }
 
 #topMenu ul {
@@ -78,30 +80,17 @@ html, body {
 	width: 414px;
 	background: #367FA6;
 
-	height: 55px;
+	height: AUTO;
 	float: left;
+	box-sizing: content-box;
 	
 }
 
 #logo img {	
-	margin-left: 330.95px;
-	padding-top: 1.3px;
-	width: 83.05px;
-	height: 40.25px;
-}
-.cleartop
-{
-	overflow: auto;
+	width: AUTO;
+	height: 52.497px;
+	padding-left: 300px;
+	box-sizing: content-box;
 }
 
-#footer {
-	width: 1200px;	
-	margin: 0;
-	padding: 0;
-}
 
-#footer p {
-	text-align: center;
-	font-size: 1.1em;
-	line-height: 2em;
-}

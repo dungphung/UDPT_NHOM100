@@ -10,7 +10,7 @@
 #footer #ThongTin
 {
 	float:left;
-	max-width: 400px;
+	max-width: 34%;
 	margin: 10px 50px 10px 70px;
 	border-right: 3px solid #fff;
 	padding-right: 20px;
@@ -19,7 +19,7 @@
 #footer #MangXH 
 {
 	float: right;
-	width: 800px;
+	width: 66%;
 }
 
 .XoaFloatFooter
@@ -40,8 +40,8 @@
 
 #footer #MangXH img
 {
-	height: 150px;
-	width:  180px;
+	height: 120px;
+	width:  150px;
 }
 
 #footer #MangXH li
