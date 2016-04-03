@@ -18,6 +18,7 @@
 #leftMenu li
 {
 	border-bottom: 1px solid #C2D8E4;
+	font-weight: bold;
 }
 
 #leftMenu li a:link, #leftMenu li a:visited {

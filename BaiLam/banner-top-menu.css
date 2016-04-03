@@ -51,7 +51,7 @@ html, body {
 	list-style-type: none; 	
   	background: #367FA6;  	
   	padding: 18.5px 8px;  	
-  	line-height: 6px;  	
+  	/*line-height: 6px;  	*/
   	font-size: 16px; 
   	width: 770px; 
   	float: right;
@@ -76,18 +76,22 @@ html, body {
 }
 
 #logo {	
-	width: 414px;
-	max-width: 100%;
+	width: 414x;
 	background: #367FA6;
 
-	height: 43.25px;
+	height: 55px;
 
 	float: left;
 }
 
 #logo img {	
-	margin-left: 324px;
+	margin-left: 330.95px;
 	padding-top: 1.3px;
 	width: 83.05px;
 	height: 40.25px;
+}
+
+.clearTop
+{
+	overflow: auto;
 }
