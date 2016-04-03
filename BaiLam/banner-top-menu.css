@@ -13,7 +13,7 @@ html, body {
 
 }
 
-.clear {clear: both;}
+.cleartop {clear: both;}
 
 
 
@@ -50,8 +50,7 @@ html, body {
 #topMenu ul {
 	list-style-type: none; 	
   	background: #367FA6;  	
-  	padding: 18.5px 8px;  	
-  	line-height: 6px;  	
+  	padding: 12.7px 8px;  	 	
   	font-size: 16px; 
   	width: 770px; 
   	float: right;
@@ -66,13 +65,13 @@ html, body {
 #topMenu ul li a:link, #topMenu a:visited {	
 	margin-left: 30px;	
 	padding: 10px 30px;
-	color: #000000;	
+	color: #ffffff;	
 
   	text-decoration: none;
 }
 
 #topMenu ul li a:hover {
-	color: #ffffff;	
+	color: #000000;	
 }
 
 #logo {	
@@ -81,8 +80,8 @@ html, body {
 	background: #367FA6;
 
 	height: 43.25px;
-
 	float: left;
+	
 }
 
 #logo img {	
@@ -91,3 +90,15 @@ html, body {
 	width: 83.05px;
 	height: 40.25px;
 }
+/*
+#footer {
+	width: 1200px;	
+	margin-top: 800px;
+	padding: 0;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 2em;
+}*/
